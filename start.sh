@@ -6,7 +6,7 @@
 #################### 脚本初始化任务 ####################
 
 # 获取脚本工作目录绝对路径
-export Server_Dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+export Server_Dir=/clash-for-linux
 
 # 加载.env变量文件
 source $Server_Dir/.env
